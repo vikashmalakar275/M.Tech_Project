@@ -1,0 +1,55 @@
+{
+  "model": "qwen2.5:3b",
+  "selection": "Interleaved missions, one midpoint-in-time predicted event per sorted channel; paired complete/redacted evidence. No test labels used.",
+  "limitations": [
+    "Pilot experiment, not an expert-rated semantic explanation benchmark.",
+    "The ordinary-LLM-plus-validator ablation reuses the identical ordinary-model response to isolate filtering. The grounded variant also changes the prompt.",
+    "Zero unsupported emitted facts is enforced by a restricted claim schema and trusted rendering; it is not a proof of unrestricted LLM truthfulness.",
+    "The template baseline has the same numerical correctness guarantee without an LLM.",
+    "Only numerical/identifier claims and the unknown-cause boundary are checked."
+  ],
+  "summary": [
+    {
+      "mode": "grounded_local_llm",
+      "cases": 32,
+      "unsupported_emitted_rate": 0.0,
+      "mean_coverage": 0.8616071428571429,
+      "mean_latency_seconds": 11.100041738406617,
+      "unsupported_proposed_claims": 1
+    },
+    {
+      "mode": "ordinary_llm_plus_validator",
+      "cases": 32,
+      "unsupported_emitted_rate": 0.0,
+      "mean_coverage": 0.9029017857142857,
+      "mean_latency_seconds": 13.285430063874628,
+      "unsupported_proposed_claims": 29
+    },
+    {
+      "mode": "ordinary_local_llm",
+      "cases": 32,
+      "unsupported_emitted_rate": 0.11788617886178862,
+      "mean_coverage": 0.9029017857142857,
+      "mean_latency_seconds": 13.285430063874628,
+      "unsupported_proposed_claims": 29
+    },
+    {
+      "mode": "template",
+      "cases": 32,
+      "unsupported_emitted_rate": 0.0,
+      "mean_coverage": 1.0,
+      "mean_latency_seconds": null,
+      "unsupported_proposed_claims": 0
+    }
+  ],
+  "latency_scope": "Wall-clock LLM draft generation only; excludes validation and rendering. The paired validator arm reuses the ordinary draft's timing. Template generation was not timed and is reported as null, not zero.",
+  "reporting_corrections": [
+    {
+      "field": "template latency_seconds and mean_latency_seconds",
+      "previous_placeholder": 0.0,
+      "replacement": null,
+      "reason": "Template generation was not timed. Zero was a placeholder, not a measurement.",
+      "other_measurements_changed": false
+    }
+  ]
+}

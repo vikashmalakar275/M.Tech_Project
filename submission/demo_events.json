@@ -1,0 +1,812 @@
+[
+  {
+    "channel": "C-1",
+    "spacecraft": "MSL",
+    "start": 591,
+    "end": 594,
+    "duration": 4,
+    "peak_sample": 591,
+    "peak_ratio": 4.9723429679870605,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "C-2",
+    "spacecraft": "MSL",
+    "start": 250,
+    "end": 282,
+    "duration": 33,
+    "peak_sample": 282,
+    "peak_ratio": 9.059012413024902,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-14",
+    "spacecraft": "MSL",
+    "start": 1815,
+    "end": 1991,
+    "duration": 177,
+    "peak_sample": 1817,
+    "peak_ratio": 49.64303207397461,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-15",
+    "spacecraft": "MSL",
+    "start": 2124,
+    "end": 2124,
+    "duration": 1,
+    "peak_sample": 2124,
+    "peak_ratio": 1.276965856552124,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-16",
+    "spacecraft": "MSL",
+    "start": 762,
+    "end": 762,
+    "duration": 1,
+    "peak_sample": 762,
+    "peak_ratio": 2.340411424636841,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-4",
+    "spacecraft": "MSL",
+    "start": 2984,
+    "end": 3034,
+    "duration": 51,
+    "peak_sample": 3031,
+    "peak_ratio": 5.6838483810424805,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-5",
+    "spacecraft": "MSL",
+    "start": 3576,
+    "end": 3663,
+    "duration": 88,
+    "peak_sample": 3641,
+    "peak_ratio": 10.870648384094238,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-7",
+    "spacecraft": "MSL",
+    "start": 2884,
+    "end": 2884,
+    "duration": 1,
+    "peak_sample": 2884,
+    "peak_ratio": 1.1184165477752686,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-8",
+    "spacecraft": "MSL",
+    "start": 293,
+    "end": 293,
+    "duration": 1,
+    "peak_sample": 293,
+    "peak_ratio": 1.3328970670700073,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "M-1",
+    "spacecraft": "MSL",
+    "start": 1026,
+    "end": 1026,
+    "duration": 1,
+    "peak_sample": 1026,
+    "peak_ratio": 1.1423758268356323,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "M-2",
+    "spacecraft": "MSL",
+    "start": 1729,
+    "end": 1745,
+    "duration": 17,
+    "peak_sample": 1729,
+    "peak_ratio": 1.7496682405471802,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "M-3",
+    "spacecraft": "MSL",
+    "start": 392,
+    "end": 393,
+    "duration": 2,
+    "peak_sample": 393,
+    "peak_ratio": 1.3911324739456177,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "M-4",
+    "spacecraft": "MSL",
+    "start": 394,
+    "end": 396,
+    "duration": 3,
+    "peak_sample": 394,
+    "peak_ratio": 1.882291316986084,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "M-5",
+    "spacecraft": "MSL",
+    "start": 1075,
+    "end": 1075,
+    "duration": 1,
+    "peak_sample": 1075,
+    "peak_ratio": 1.3415569067001343,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "M-6",
+    "spacecraft": "MSL",
+    "start": 1010,
+    "end": 2048,
+    "duration": 1039,
+    "peak_sample": 1863,
+    "peak_ratio": 5087.083984375,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "M-7",
+    "spacecraft": "MSL",
+    "start": 954,
+    "end": 1006,
+    "duration": 53,
+    "peak_sample": 971,
+    "peak_ratio": 101.03087615966797,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-10",
+    "spacecraft": "MSL",
+    "start": 4617,
+    "end": 6099,
+    "duration": 1483,
+    "peak_sample": 4690,
+    "peak_ratio": 496.2182922363281,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "P-11",
+    "spacecraft": "MSL",
+    "start": 1850,
+    "end": 1850,
+    "duration": 1,
+    "peak_sample": 1850,
+    "peak_ratio": 7.98439884185791,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-14",
+    "spacecraft": "MSL",
+    "start": 32,
+    "end": 6099,
+    "duration": 6068,
+    "peak_sample": 4690,
+    "peak_ratio": 7628.24609375,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "P-15",
+    "spacecraft": "MSL",
+    "start": 1397,
+    "end": 2855,
+    "duration": 1459,
+    "peak_sample": 1397,
+    "peak_ratio": 84.12535858154297,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "S-2",
+    "spacecraft": "MSL",
+    "start": 905,
+    "end": 908,
+    "duration": 4,
+    "peak_sample": 906,
+    "peak_ratio": 25.371267318725586,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-12",
+    "spacecraft": "MSL",
+    "start": 1003,
+    "end": 1006,
+    "duration": 4,
+    "peak_sample": 1003,
+    "peak_ratio": 4.7515363693237305,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-13",
+    "spacecraft": "MSL",
+    "start": 2173,
+    "end": 2175,
+    "duration": 3,
+    "peak_sample": 2173,
+    "peak_ratio": 1.4372187852859497,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-4",
+    "spacecraft": "MSL",
+    "start": 1216,
+    "end": 1216,
+    "duration": 1,
+    "peak_sample": 1216,
+    "peak_ratio": 1.5851846933364868,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-5",
+    "spacecraft": "MSL",
+    "start": 1212,
+    "end": 1217,
+    "duration": 6,
+    "peak_sample": 1213,
+    "peak_ratio": 34.53691101074219,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-8",
+    "spacecraft": "MSL",
+    "start": 240,
+    "end": 240,
+    "duration": 1,
+    "peak_sample": 240,
+    "peak_ratio": 3.593895196914673,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-9",
+    "spacecraft": "MSL",
+    "start": 850,
+    "end": 917,
+    "duration": 68,
+    "peak_sample": 912,
+    "peak_ratio": 3.597703218460083,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-1",
+    "spacecraft": "SMAP",
+    "start": 4750,
+    "end": 4750,
+    "duration": 1,
+    "peak_sample": 4750,
+    "peak_ratio": 36.43279266357422,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-2",
+    "spacecraft": "SMAP",
+    "start": 4464,
+    "end": 4465,
+    "duration": 2,
+    "peak_sample": 4464,
+    "peak_ratio": 1.8012454509735107,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-3",
+    "spacecraft": "SMAP",
+    "start": 4643,
+    "end": 4643,
+    "duration": 1,
+    "peak_sample": 4643,
+    "peak_ratio": 3.041044235229492,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-4",
+    "spacecraft": "SMAP",
+    "start": 4651,
+    "end": 4652,
+    "duration": 2,
+    "peak_sample": 4651,
+    "peak_ratio": 2.141275644302368,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-5",
+    "spacecraft": "SMAP",
+    "start": 2757,
+    "end": 4692,
+    "duration": 1936,
+    "peak_sample": 2786,
+    "peak_ratio": 4737.75244140625,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "A-6",
+    "spacecraft": "SMAP",
+    "start": 1903,
+    "end": 1903,
+    "duration": 1,
+    "peak_sample": 1903,
+    "peak_ratio": 1.0419999361038208,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-7",
+    "spacecraft": "SMAP",
+    "start": 2909,
+    "end": 2910,
+    "duration": 2,
+    "peak_sample": 2909,
+    "peak_ratio": 1.9345697164535522,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-8",
+    "spacecraft": "SMAP",
+    "start": 32,
+    "end": 182,
+    "duration": 151,
+    "peak_sample": 83,
+    "peak_ratio": 12.857860565185547,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "A-9",
+    "spacecraft": "SMAP",
+    "start": 32,
+    "end": 105,
+    "duration": 74,
+    "peak_sample": 95,
+    "peak_ratio": 35.65141296386719,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "B-1",
+    "spacecraft": "SMAP",
+    "start": 5077,
+    "end": 8043,
+    "duration": 2967,
+    "peak_sample": 5096,
+    "peak_ratio": 895.5260620117188,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-1",
+    "spacecraft": "SMAP",
+    "start": 5607,
+    "end": 8508,
+    "duration": 2902,
+    "peak_sample": 5612,
+    "peak_ratio": 10.28827953338623,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-11",
+    "spacecraft": "SMAP",
+    "start": 4302,
+    "end": 4305,
+    "duration": 4,
+    "peak_sample": 4302,
+    "peak_ratio": 2.4711575508117676,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-12",
+    "spacecraft": "SMAP",
+    "start": 5382,
+    "end": 7917,
+    "duration": 2536,
+    "peak_sample": 7915,
+    "peak_ratio": 37.85137176513672,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-13",
+    "spacecraft": "SMAP",
+    "start": 5092,
+    "end": 7662,
+    "duration": 2571,
+    "peak_sample": 5196,
+    "peak_ratio": 146.25543212890625,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-2",
+    "spacecraft": "SMAP",
+    "start": 4689,
+    "end": 8495,
+    "duration": 3807,
+    "peak_sample": 8494,
+    "peak_ratio": 36.93841552734375,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-3",
+    "spacecraft": "SMAP",
+    "start": 5300,
+    "end": 8639,
+    "duration": 3340,
+    "peak_sample": 8633,
+    "peak_ratio": 260.524169921875,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-4",
+    "spacecraft": "SMAP",
+    "start": 5235,
+    "end": 8472,
+    "duration": 3238,
+    "peak_sample": 8472,
+    "peak_ratio": 221.19918823242188,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-5",
+    "spacecraft": "SMAP",
+    "start": 32,
+    "end": 7627,
+    "duration": 7596,
+    "peak_sample": 4818,
+    "peak_ratio": 18148.673828125,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-6",
+    "spacecraft": "SMAP",
+    "start": 4918,
+    "end": 4927,
+    "duration": 10,
+    "peak_sample": 4918,
+    "peak_ratio": 10.298222541809082,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-7",
+    "spacecraft": "SMAP",
+    "start": 5038,
+    "end": 7641,
+    "duration": 2604,
+    "peak_sample": 7354,
+    "peak_ratio": 54.586151123046875,
+    "ongoing_at_cursor": true
+  },
+  {
+    "channel": "D-8",
+    "spacecraft": "SMAP",
+    "start": 4386,
+    "end": 4399,
+    "duration": 14,
+    "peak_sample": 4386,
+    "peak_ratio": 676.2889404296875,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "D-9",
+    "spacecraft": "SMAP",
+    "start": 6473,
+    "end": 7394,
+    "duration": 922,
+    "peak_sample": 6486,
+    "peak_ratio": 3413.498779296875,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-1",
+    "spacecraft": "SMAP",
+    "start": 5611,
+    "end": 5613,
+    "duration": 3,
+    "peak_sample": 5611,
+    "peak_ratio": 5.307695388793945,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-10",
+    "spacecraft": "SMAP",
+    "start": 5611,
+    "end": 5613,
+    "duration": 3,
+    "peak_sample": 5611,
+    "peak_ratio": 5.714288711547852,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-11",
+    "spacecraft": "SMAP",
+    "start": 5611,
+    "end": 5613,
+    "duration": 3,
+    "peak_sample": 5611,
+    "peak_ratio": 5.240745544433594,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-12",
+    "spacecraft": "SMAP",
+    "start": 5611,
+    "end": 5613,
+    "duration": 3,
+    "peak_sample": 5611,
+    "peak_ratio": 5.353045463562012,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-13",
+    "spacecraft": "SMAP",
+    "start": 7046,
+    "end": 7046,
+    "duration": 1,
+    "peak_sample": 7046,
+    "peak_ratio": 1.4365452527999878,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-2",
+    "spacecraft": "SMAP",
+    "start": 5629,
+    "end": 5835,
+    "duration": 207,
+    "peak_sample": 5736,
+    "peak_ratio": 1.9809454679489136,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-3",
+    "spacecraft": "SMAP",
+    "start": 5616,
+    "end": 5619,
+    "duration": 4,
+    "peak_sample": 5617,
+    "peak_ratio": 2.758805513381958,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-4",
+    "spacecraft": "SMAP",
+    "start": 5615,
+    "end": 5619,
+    "duration": 5,
+    "peak_sample": 5617,
+    "peak_ratio": 3.0301663875579834,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-5",
+    "spacecraft": "SMAP",
+    "start": 5617,
+    "end": 5619,
+    "duration": 3,
+    "peak_sample": 5617,
+    "peak_ratio": 3.311875343322754,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-6",
+    "spacecraft": "SMAP",
+    "start": 5615,
+    "end": 5627,
+    "duration": 13,
+    "peak_sample": 5615,
+    "peak_ratio": 400.77685546875,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-7",
+    "spacecraft": "SMAP",
+    "start": 5567,
+    "end": 5577,
+    "duration": 11,
+    "peak_sample": 5567,
+    "peak_ratio": 30.303617477416992,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-8",
+    "spacecraft": "SMAP",
+    "start": 390,
+    "end": 400,
+    "duration": 11,
+    "peak_sample": 398,
+    "peak_ratio": 3.0741493701934814,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "E-9",
+    "spacecraft": "SMAP",
+    "start": 5615,
+    "end": 5617,
+    "duration": 3,
+    "peak_sample": 5616,
+    "peak_ratio": 2.946096897125244,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-1",
+    "spacecraft": "SMAP",
+    "start": 7529,
+    "end": 7534,
+    "duration": 6,
+    "peak_sample": 7530,
+    "peak_ratio": 1.9267067909240723,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-2",
+    "spacecraft": "SMAP",
+    "start": 6813,
+    "end": 6813,
+    "duration": 1,
+    "peak_sample": 6813,
+    "peak_ratio": 1.830016016960144,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "F-3",
+    "spacecraft": "SMAP",
+    "start": 369,
+    "end": 370,
+    "duration": 2,
+    "peak_sample": 369,
+    "peak_ratio": 1.4604430198669434,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "G-1",
+    "spacecraft": "SMAP",
+    "start": 7414,
+    "end": 7415,
+    "duration": 2,
+    "peak_sample": 7414,
+    "peak_ratio": 1.1984976530075073,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "G-2",
+    "spacecraft": "SMAP",
+    "start": 4041,
+    "end": 4041,
+    "duration": 1,
+    "peak_sample": 4041,
+    "peak_ratio": 34.73405075073242,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "G-3",
+    "spacecraft": "SMAP",
+    "start": 4212,
+    "end": 4215,
+    "duration": 4,
+    "peak_sample": 4212,
+    "peak_ratio": 28.484325408935547,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "G-4",
+    "spacecraft": "SMAP",
+    "start": 4706,
+    "end": 4708,
+    "duration": 3,
+    "peak_sample": 4706,
+    "peak_ratio": 102.3145523071289,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "G-6",
+    "spacecraft": "SMAP",
+    "start": 5644,
+    "end": 5658,
+    "duration": 15,
+    "peak_sample": 5653,
+    "peak_ratio": 5.669013500213623,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "G-7",
+    "spacecraft": "SMAP",
+    "start": 5074,
+    "end": 5083,
+    "duration": 10,
+    "peak_sample": 5076,
+    "peak_ratio": 1.0079169273376465,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-1",
+    "spacecraft": "SMAP",
+    "start": 4630,
+    "end": 4630,
+    "duration": 1,
+    "peak_sample": 4630,
+    "peak_ratio": 1.673620343208313,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-2",
+    "spacecraft": "SMAP",
+    "start": 5440,
+    "end": 5453,
+    "duration": 14,
+    "peak_sample": 5440,
+    "peak_ratio": 39.0837516784668,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-3",
+    "spacecraft": "SMAP",
+    "start": 6341,
+    "end": 6344,
+    "duration": 4,
+    "peak_sample": 6341,
+    "peak_ratio": 3.5544636249542236,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-4",
+    "spacecraft": "SMAP",
+    "start": 2270,
+    "end": 2271,
+    "duration": 2,
+    "peak_sample": 2270,
+    "peak_ratio": 30.21267318725586,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "P-7",
+    "spacecraft": "SMAP",
+    "start": 7872,
+    "end": 7873,
+    "duration": 2,
+    "peak_sample": 7873,
+    "peak_ratio": 2.307816505432129,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "R-1",
+    "spacecraft": "SMAP",
+    "start": 4559,
+    "end": 4566,
+    "duration": 8,
+    "peak_sample": 4559,
+    "peak_ratio": 2930.378173828125,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "S-1",
+    "spacecraft": "SMAP",
+    "start": 2779,
+    "end": 2779,
+    "duration": 1,
+    "peak_sample": 2779,
+    "peak_ratio": 1.1037853956222534,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-1",
+    "spacecraft": "SMAP",
+    "start": 6559,
+    "end": 6560,
+    "duration": 2,
+    "peak_sample": 6559,
+    "peak_ratio": 3.8719141483306885,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-2",
+    "spacecraft": "SMAP",
+    "start": 363,
+    "end": 365,
+    "duration": 3,
+    "peak_sample": 363,
+    "peak_ratio": 3.209484815597534,
+    "ongoing_at_cursor": false
+  },
+  {
+    "channel": "T-3",
+    "spacecraft": "SMAP",
+    "start": 5252,
+    "end": 5257,
+    "duration": 6,
+    "peak_sample": 5252,
+    "peak_ratio": 295.72088623046875,
+    "ongoing_at_cursor": false
+  }
+]

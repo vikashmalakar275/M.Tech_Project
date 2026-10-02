@@ -9,11 +9,18 @@ import pandas as pd
 
 from orbitwatch.evidence import (
     CORE_FIELDS,
+    Claim,
     check_claims,
     generate_draft,
     template_report,
 )
 from orbitwatch.service import TelemetryService
+
+GENERATION_LATENCY_SCOPE = (
+    "Wall-clock LLM draft generation only; excludes validation and rendering. "
+    "The paired validator arm reuses the ordinary draft's timing. "
+    "Template generation was not timed and is reported as null, not zero."
+)
 
 
 def evaluate_explanations(root: Path, run: str | None, model: str, cases: int = 12) -> Path:
@@ -51,7 +58,9 @@ def evaluate_explanations(root: Path, run: str | None, model: str, cases: int = 
             flush=True,
         )
         template = template_report(evidence)
-        proposals = [("template", template.accepted, 0.0)]
+        proposals: list[tuple[str, list[Claim], float | None]] = [
+            ("template", template.accepted, None)
+        ]
         for name, grounded in (("ordinary_local_llm", False), ("grounded_local_llm", True)):
             started = time.perf_counter()
             draft = generate_draft(evidence, model, grounded=grounded)
@@ -102,12 +111,15 @@ def evaluate_explanations(root: Path, run: str | None, model: str, cases: int = 
                 if emitted
                 else None,
                 "mean_coverage": float(group["coverage"].mean()),
-                "mean_latency_seconds": float(group["latency_seconds"].mean()),
+                "mean_latency_seconds": float(group["latency_seconds"].mean())
+                if group["latency_seconds"].notna().any()
+                else None,
                 "unsupported_proposed_claims": int(group["unsupported_proposed_claims"].sum()),
             }
         )
     metadata = {
         "model": model,
+        "latency_scope": GENERATION_LATENCY_SCOPE,
         "selection": "Interleaved missions, one midpoint-in-time predicted event per sorted channel; paired complete/redacted evidence. No test labels used.",
         "limitations": [
             "Pilot experiment, not an expert-rated semantic explanation benchmark.",

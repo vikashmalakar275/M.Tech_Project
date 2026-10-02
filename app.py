@@ -384,6 +384,8 @@ with benchmark_tab:
         explanations = json.loads(explanations_path.read_text())
         st.subheader("Local explanation pilot")
         st.caption(f"Actual local model: {explanations['model']}")
+        if "latency_scope" in explanations:
+            st.caption(explanations["latency_scope"])
         st.dataframe(
             pd.DataFrame(explanations["summary"]), hide_index=True, use_container_width=True
         )

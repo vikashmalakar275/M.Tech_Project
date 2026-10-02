@@ -25,6 +25,10 @@ from orbitwatch.experiment import resolve_run
 from orbitwatch.service import TelemetryService
 
 
+def optional_decimal(value: float | None, digits: int = 3) -> str:
+    return f"{value:.{digits}f}" if value is not None else "n/a"
+
+
 def create_submission(root: Path, run: str | None = None) -> Path:
     run_dir = resolve_run(root, run)
     manifest = json.loads((run_dir / "manifest.json").read_text())
@@ -70,7 +74,8 @@ def create_submission(root: Path, run: str | None = None) -> Path:
 
     def paragraph(text: str, style: str = "BodyText") -> None:
         story.append(Paragraph(escape(text), styles[style]))
-        story.append(Spacer(1, 0.18 * cm))
+        if style not in ("Title", "Heading2"):
+            story.append(Spacer(1, 0.18 * cm))
 
     def heading(text: str) -> None:
         paragraph(text, "Heading2")
@@ -79,7 +84,7 @@ def create_submission(root: Path, run: str | None = None) -> Path:
         converted = [
             [Paragraph(escape(str(value)), styles["SmallBody"]) for value in row] for row in rows
         ]
-        item = Table(converted, colWidths=widths, repeatRows=1, hAlign="LEFT")
+        item = Table(converted, colWidths=widths, repeatRows=1, hAlign="LEFT", splitByRow=0)
         item.setStyle(
             TableStyle(
                 [
@@ -185,17 +190,17 @@ def create_submission(root: Path, run: str | None = None) -> Path:
     )
     if explanations:
         paragraph(f"The local pilot used {explanations['model']}. {explanations['selection']}")
+        if "latency_scope" in explanations:
+            paragraph(explanations["latency_scope"], "SmallBody")
         table(
-            [["Mode", "Cases", "Unsupported emitted", "Coverage", "Mean seconds"]]
+            [["Mode", "Cases", "Unsupported emitted", "Coverage", "Mean generation seconds"]]
             + [
                 [
                     r["mode"],
                     str(r["cases"]),
-                    f"{r['unsupported_emitted_rate']:.3f}"
-                    if r["unsupported_emitted_rate"] is not None
-                    else "n/a",
+                    optional_decimal(r["unsupported_emitted_rate"]),
                     f"{r['mean_coverage']:.3f}",
-                    f"{r['mean_latency_seconds']:.2f}",
+                    optional_decimal(r["mean_latency_seconds"], 2),
                 ]
                 for r in explanations["summary"]
             ],
@@ -348,7 +353,7 @@ def create_submission(root: Path, run: str | None = None) -> Path:
             "Local explanation pilot",
             [f"Model: {explanations['model']}; paired complete/redacted evidence."]
             + [
-                f"{r['mode']}: unsupported={r['unsupported_emitted_rate']:.3f}; coverage={r['mean_coverage']:.3f}."
+                f"{r['mode']}: unsupported={optional_decimal(r['unsupported_emitted_rate'])}; coverage={r['mean_coverage']:.3f}."
                 for r in explanations["summary"]
             ],
         )

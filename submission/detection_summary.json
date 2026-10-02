@@ -1,0 +1,80 @@
+[
+  {
+    "spacecraft": "ALL",
+    "detector": "gru",
+    "channels": 81,
+    "macro_point_f1": 0.21622895162073014,
+    "macro_average_precision": 0.31754092774090936,
+    "event_precision": 0.02164090368608799,
+    "event_recall": 0.875,
+    "event_f1": 0.042237177999535865,
+    "false_alarms_per_1000_normal_samples": 103.12595183033449,
+    "mean_channel_p95_latency_ms": 0.2792384116702,
+    "training_seconds": 22.15324487586622
+  },
+  {
+    "spacecraft": "ALL",
+    "detector": "rolling_median",
+    "channels": 81,
+    "macro_point_f1": 0.15818065289097866,
+    "macro_average_precision": 0.26099786317695906,
+    "event_precision": 0.02166882276843467,
+    "event_recall": 0.6442307692307693,
+    "event_f1": 0.04192740926157698,
+    "false_alarms_per_1000_normal_samples": 45.16441987703762,
+    "mean_channel_p95_latency_ms": 0.019867430253523496,
+    "training_seconds": 0.0
+  },
+  {
+    "spacecraft": "MSL",
+    "detector": "gru",
+    "channels": 27,
+    "macro_point_f1": 0.1758749657647034,
+    "macro_average_precision": 0.31812180890448805,
+    "event_precision": 0.03970223325062035,
+    "event_recall": 0.8888888888888888,
+    "event_f1": 0.07600950118764846,
+    "false_alarms_per_1000_normal_samples": 185.3331080354537,
+    "mean_channel_p95_latency_ms": 0.27926290850801805,
+    "training_seconds": 6.689547168934951
+  },
+  {
+    "spacecraft": "MSL",
+    "detector": "rolling_median",
+    "channels": 27,
+    "macro_point_f1": 0.19062291791857525,
+    "macro_average_precision": 0.30083388767371994,
+    "event_precision": 0.027245206861755803,
+    "event_recall": 0.75,
+    "event_f1": 0.05258033106134372,
+    "false_alarms_per_1000_normal_samples": 152.49082167160785,
+    "mean_channel_p95_latency_ms": 0.019633125932024847,
+    "training_seconds": 0.0
+  },
+  {
+    "spacecraft": "SMAP",
+    "detector": "gru",
+    "channels": 54,
+    "macro_point_f1": 0.2364059445487435,
+    "macro_average_precision": 0.31725048715912,
+    "event_precision": 0.017358046484260075,
+    "event_recall": 0.8676470588235294,
+    "event_f1": 0.0340351889241419,
+    "false_alarms_per_1000_normal_samples": 88.97298784003216,
+    "mean_channel_p95_latency_ms": 0.279226163251291,
+    "training_seconds": 15.46369770693127
+  },
+  {
+    "spacecraft": "SMAP",
+    "detector": "rolling_median",
+    "channels": 54,
+    "macro_point_f1": 0.14195952037718035,
+    "macro_average_precision": 0.24107985092857856,
+    "event_precision": 0.01903855306996668,
+    "event_recall": 0.5882352941176471,
+    "event_f1": 0.03688335638543107,
+    "false_alarms_per_1000_normal_samples": 26.686871571909894,
+    "mean_channel_p95_latency_ms": 0.019984582414272815,
+    "training_seconds": 0.0
+  }
+]

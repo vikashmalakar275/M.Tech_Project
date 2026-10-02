@@ -121,7 +121,7 @@ Install [Ollama](https://ollama.com/) and start it, then:
 
 ```bash
 ollama pull qwen2.5:3b
-orbitwatch evaluate-explanations --run nasa-full-seed17 --cases 12
+orbitwatch evaluate-explanations --run nasa-full-seed17 --cases 32
 orbitwatch report --run nasa-full-seed17
 ```
 
@@ -211,7 +211,8 @@ See [methodology](docs/METHODOLOGY.md), [demonstration guide](docs/DEMO_GUIDE.md
 ## Quality checks
 
 ```bash
-python -m ruff check src app.py tests
+python -m ruff check src app.py tests scripts
+python -m ruff format --check src app.py tests scripts
 python -m pytest -q
 ```
 

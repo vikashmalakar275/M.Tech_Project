@@ -111,6 +111,11 @@ The paired third arm isolates validator filtering without additional model sampl
 The fourth changes both prompting and filtering. Record proposals, rejections, emitted
 facts, factual coverage, and generation latency, including the complete raw case records.
 
+Generation latency is wall-clock LLM draft generation only, excluding validation and
+rendering. The paired validator arm reuses the ordinary draft's measured generation
+time; it is not a separate end-to-end timing measurement. Template generation was not
+timed and is reported as `null` / `n/a`, not an exactly measured zero execution cost.
+
 This evaluates a restricted fact-selection/reporting workflow, not unrestricted prose
 truthfulness. Template correctness is a strong baseline. A zero error rate for accepted
 claims is structurally enforced, not independent proof that an LLM understood spacecraft
@@ -125,6 +130,12 @@ per-sample predictions/scores, full metric CSV, and aggregate JSON.
 The source fingerprint covers package Python files at experiment start. An experiment's
 manifest remains the record of that run even if unrelated application/report code later
 changes. The Git history identifies the submitted implementation.
+
+The computational snapshot for `nasa-full-seed17` is preserved in
+[commit 2a5b5cc](https://github.com/vikashmalakar275/M.Tech_Project/commit/2a5b5cc25f132f0a9cd2b9a58119a3e0c7301a8f).
+Its package fingerprint matches the recorded manifest. Subsequent reporting corrections
+replace unmeasured template timing placeholders with null and clarify timing scope;
+the detector results, generated claims, and measured LLM timings are unchanged.
 
 Negative findings remain part of the report. The generator does not insert literature
 accuracy tables or promise that a deep model beats a simple baseline.
